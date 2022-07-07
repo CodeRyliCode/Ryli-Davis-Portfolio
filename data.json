@@ -32,7 +32,7 @@
       "project_name": "Game Show Extravaganza",
       "description": "A classic hang-man like game where the player has a limited amount of trys in guessing what the hidden random phrase is.",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "live_link": "",
+      "live_link": "https://game-show-extravaganza.netlify.app/",
       "github_link": "https://github.com/CodeRyliCode/Game-Show-Extravaganza",
       "image_urls": ""
     },
@@ -41,7 +41,7 @@
       "project_name": "Remote Dream Life Employee Directory",
       "description": "An employee directory of a random 12 persons that we receive from the API. When we click on a employee card, a modal opens with contact information about the specific employee",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "live_link": "",
+      "live_link": "https://remote-employee-directory.netlify.app/",
       "github_link": "https://github.com/CodeRyliCode/Remote-Dream-Life-Employee-Directory",
       "image_urls": ""
     },
