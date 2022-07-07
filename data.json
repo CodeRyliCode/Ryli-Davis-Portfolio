@@ -5,7 +5,7 @@
       "project_name": "Inspirational Quote Generator",
       "description": "A random quote generator with inspirational quotes that changes quote and background color automatically after 4 second intervals.",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "live_link": "",
+      "live_link": "https://inspirational-quotes-generator.netlify.app/",
       "github_link": "https://github.com/CodeRyliCode/Inspirational-Quote-Generator",
       "image_urls": ""
     },
@@ -14,17 +14,17 @@
       "project_name": "Data Pagination And Filtering App",
       "description": "A dynamic app showing 5 different pages of 42 students. With this app, we are able to switch pages to show details of all students. Each page shows as being active while others are not active. We also get to see all the names, emails, and dates that the students had joined school.",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "live_link": "",
+      "live_link": "https://data-pagination-and-filtering.netlify.app/",
       "github_link": "https://github.com/CodeRyliCode/Data-Pagination-And-Filtering-App",
       "image_urls": ""
     },
     {
       "id": "2",
-      "project_name": "Creating Interactive Form",
+      "project_name": "Customized Interactive Form",
       "description": "A user-friendly interactive form that validates user input and provides helpful indicators to enhance accessibility for all.",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "live_link": "",
-      "github_link": "https://github.com/CodeRyliCode/Creating-Interactive-Form",
+      "live_link": "https://customized-interactive-form.netlify.app/",
+      "github_link": "https://github.com/CodeRyliCode/Customized-Interactive-Form",
       "image_urls": ""
     },
     {
@@ -43,6 +43,24 @@
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "",
       "github_link": "https://github.com/CodeRyliCode/Remote-Dream-Life-Employee-Directory",
+      "image_urls": ""
+    },
+    {
+      "id": "5",
+      "project_name": "Ryli Davis Portfolio",
+      "description": "A full stack web developer portfolio, by Ryli Davis",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "https://rylidavisportfolio.web.app/",
+      "github_link": "https://github.com/CodeRyliCode/RyliDavisPortfolio",
+      "image_urls": ""
+    },
+    {
+      "id": "6",
+      "project_name": "CryptoCheck",
+      "description": "A cryptocurrency app, created with React, that efficiently and seamlessly allows a user to search and access the current price, market cap, and price change of any crypto coin. Utilizes the CoinGecko API which proves to be comprehensive and reliable.",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "https://cryptocheck-9f959.firebaseapp.com/",
+      "github_link": "https://github.com/CodeRyliCode/CryptoCheck",
       "image_urls": ""
     }
   ]
