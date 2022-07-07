@@ -1,0 +1,24 @@
+{
+  "name": "ryli-davis-portfolio",
+  "version": "1.0.0",
+  "description": "Create a README.md file for your repo that explains what the project is and anything your user or fellow developers might need to know to use the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeRyliCode/Ryli-Davis-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeRyliCode/Ryli-Davis-Portfolio/issues"
+  },
+  "homepage": "https://github.com/CodeRyliCode/Ryli-Davis-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "pug": "^3.0.2"
+  }
+}
