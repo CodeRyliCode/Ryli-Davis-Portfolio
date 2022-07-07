@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": "0",
+      "project_name": "Inspirational Quote Generator",
+      "description": "A random quote generator with inspirational quotes that changes quote and background color automatically after 4 second intervals.",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "",
+      "github_link": "https://github.com/CodeRyliCode/Inspirational-Quote-Generator",
+      "image_urls": ""
+    },
+    {
+      "id": "1",
+      "project_name": "Data Pagination And Filtering App",
+      "description": "A dynamic app showing 5 different pages of 42 students. With this app, we are able to switch pages to show details of all students. Each page shows as being active while others are not active. We also get to see all the names, emails, and dates that the students had joined school.",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "",
+      "github_link": "https://github.com/CodeRyliCode/Data-Pagination-And-Filtering-App",
+      "image_urls": ""
+    },
+    {
+      "id": "2",
+      "project_name": "Creating Interactive Form",
+      "description": "A user-friendly interactive form that validates user input and provides helpful indicators to enhance accessibility for all.",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "",
+      "github_link": "https://github.com/CodeRyliCode/Creating-Interactive-Form",
+      "image_urls": ""
+    },
+    {
+      "id": "3",
+      "project_name": "Game Show Extravaganza",
+      "description": "A classic hang-man like game where the player has a limited amount of trys in guessing what the hidden random phrase is.",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "",
+      "github_link": "https://github.com/CodeRyliCode/Game-Show-Extravaganza",
+      "image_urls": ""
+    },
+    {
+      "id": "4",
+      "project_name": "Remote Dream Life Employee Directory",
+      "description": "An employee directory of a random 12 persons that we receive from the API. When we click on a employee card, a modal opens with contact information about the specific employee",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "",
+      "github_link": "https://github.com/CodeRyliCode/Remote-Dream-Life-Employee-Directory",
+      "image_urls": ""
+    }
+  ]
+}

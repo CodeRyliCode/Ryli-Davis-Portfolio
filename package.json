@@ -2,7 +2,7 @@
   "name": "ryli-davis-portfolio",
   "version": "1.0.0",
   "description": "Create a README.md file for your repo that explains what the project is and anything your user or fellow developers might need to know to use the project.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
