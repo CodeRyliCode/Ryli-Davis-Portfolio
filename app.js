@@ -27,7 +27,12 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+  //Second route for the about page
+  app.get("/about", (req, res) => {
+    res.render("about");
+  });
 
-/*An "about" route (/about) to render the "About" page
-Dynamic "project" routes (/project/:id or /projects/:id) based on the id of the project that render a customized version of the Pug project template to show off each project. Which means adding data, or "locals", as an object that contains data to be passed to the Pug template.
+
+
+/*Dynamic "project" routes (/project/:id or /projects/:id) based on the id of the project that render a customized version of the Pug project template to show off each project. Which means adding data, or "locals", as an object that contains data to be passed to the Pug template.
 Finally, start your server. Your app should listen on port 3000, and log a string to the console that says which port the app is listening to.*/
