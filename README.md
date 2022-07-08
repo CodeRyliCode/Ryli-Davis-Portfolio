@@ -5,7 +5,7 @@ My portfolio was created with my thorough skillset of express, node.js, and comb
 
 My application is able to run directly from the command line by running 'npm start'. I customized the design by using different colors, background colors, and box or text shadows as follows -
 
-.portfolio-intro p - olive font color
+.portfolio-intro p - olive font color <br>
 .sidebar a - white font color
 .box - white font color
 .projects-box h5 - middle grey font color
