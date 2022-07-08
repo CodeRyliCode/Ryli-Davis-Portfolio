@@ -1,4 +1,4 @@
-font-size: 13px;Ryli Davis' Portfolio
+###Ryli Davis' Portfolio
 ![image](https://user-images.githubusercontent.com/86996817/177975083-09f0608a-9a5d-44fd-9e72-58c20aff59ec.png)
 
 My portfolio was created with my thorough skillset of express, node.js, and combined with the usage of pug templates. Each project contains a unique application designed with various technologies.
