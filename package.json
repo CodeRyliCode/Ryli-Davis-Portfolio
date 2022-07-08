@@ -4,7 +4,9 @@
   "description": "Create a README.md file for your repo that explains what the project is and anything your user or fellow developers might need to know to use the project.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "open http://localhost:3000 && npm run build && npm run dev"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/CodeRyliCode/Ryli-Davis-Portfolio#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "http-server": "14.1.1",
     "nodemon": "^2.0.19",
     "pug": "^3.0.2"
   }
