@@ -1,5 +1,6 @@
 Ryli Davis' Portfolio
 
+
 My portfolio was created with my thorough skillset of express, node.js, and combined with the usage of pug templates. Each project contains a unique application designed with various technologies.
 
 My application is able to run directly from the command line by running 'npm start'. I customized the design by using different colors, background colors, and box or text shadows as follows -
