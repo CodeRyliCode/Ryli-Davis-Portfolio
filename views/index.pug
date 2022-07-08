@@ -8,13 +8,14 @@ block content
     h1 Creating imaginative practical web experiences, one day at a time! :)
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p I showcase my capabilities through my web design experience. My portfolio was created with my thorough skillset of express combined with the usage of pug templates. Each project contains a unique application designed with various technologies. 
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-
       //- Use the Pug `each` iterator to loop over the projects in your data file  
+      each project in projects
+
       
         //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
           //- The paths in the link's href and img's src attributes
@@ -22,7 +23,7 @@ block content
           //- The project title for the h5 element's text
 
         .cell
-          a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 My Site
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[1]}`,alt=`${project.project_name}`)
+            h5 #{project.project_name}
 

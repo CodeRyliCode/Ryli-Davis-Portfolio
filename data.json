@@ -7,7 +7,7 @@
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://inspirational-quotes-generator.netlify.app/",
       "github_link": "https://github.com/CodeRyliCode/Inspirational-Quote-Generator",
-      "image_urls": ""
+      "image_urls": ["/static/images/project1-1", "/static/images/project1-2"]
     },
     {
       "id": "1",
