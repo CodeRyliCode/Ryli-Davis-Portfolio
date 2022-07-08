@@ -7,7 +7,7 @@
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://inspirational-quotes-generator.netlify.app/",
       "github_link": "https://github.com/CodeRyliCode/Inspirational-Quote-Generator",
-      "image_urls": ["/static/images/project1-1", "/static/images/project1-2"]
+      "image_urls": ["/static/images/project1-1.png", "/static/images/project1-2.png"]
     },
     {
       "id": "1",
@@ -16,7 +16,7 @@
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://data-pagination-and-filtering.netlify.app/",
       "github_link": "https://github.com/CodeRyliCode/Data-Pagination-And-Filtering-App",
-      "image_urls": ["/static/images/project2-1", "/static/images/project2-2"]
+      "image_urls": ["/static/images/project2-1.png", "/static/images/project2-2.png"]
     },
     {
       "id": "2",
@@ -25,7 +25,7 @@
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://customized-interactive-form.netlify.app/",
       "github_link": "https://github.com/CodeRyliCode/Customized-Interactive-Form",
-      "image_urls": ["/static/images/project3-1", "/static/images/project3-2"]
+      "image_urls": ["/static/images/project3-1.png", "/static/images/project3-2.png"]
     },
     {
       "id": "3",
@@ -34,7 +34,7 @@
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://game-show-extravaganza.netlify.app/",
       "github_link": "https://github.com/CodeRyliCode/Game-Show-Extravaganza",
-      "image_urls": ["/static/images/project4-1", "/static/images/project4-2"]
+      "image_urls": ["/static/images/project4-1.png", "/static/images/project4-2.png"]
     },
     {
       "id": "4",
@@ -43,7 +43,7 @@
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://remote-employee-directory.netlify.app/",
       "github_link": "https://github.com/CodeRyliCode/Remote-Dream-Life-Employee-Directory",
-      "image_urls": ["/static/images/project5-1", "/static/images/project5-2"]
+      "image_urls": ["/static/images/project5-1.png", "/static/images/project5-2.png"]
     },
     {
       "id": "5",
@@ -52,7 +52,7 @@
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://rylidavisportfolio.web.app/",
       "github_link": "https://github.com/CodeRyliCode/RyliDavisPortfolio",
-      "image_urls": ""
+      "image_urls": ["/static/images/project6-1.png", "/static/images/project6-2.png"]
     },
     {
       "id": "6",
@@ -61,7 +61,7 @@
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://cryptocheck-9f959.firebaseapp.com/",
       "github_link": "https://github.com/CodeRyliCode/CryptoCheck",
-      "image_urls": ""
+      "image_urls": ["/static/images/project7-1.png", "/static/images/project7-2.png"]
     }
   ]
 }
