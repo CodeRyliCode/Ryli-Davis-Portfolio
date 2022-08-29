@@ -67,11 +67,6 @@ app.use((req, res) => {
 })
 
 
-const client = new Client({
-  connectionString: connectionString,
-    ssl: { rejectUnauthorized: false }
-  
-})
 
 //  Global Error Handler
 app.use((err, req, res, next) => {
