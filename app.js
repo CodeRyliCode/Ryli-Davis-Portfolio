@@ -11,6 +11,12 @@ const port = process.env.PORT || 3000
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
 
+
+
+
+
+
+
 //Setting up the middleware view engine to "pug"
 app.set("view engine", "pug");
 
@@ -61,8 +67,8 @@ app.use((req, res) => {
 })
 
 
-const pool = new Pool({
-  connectionString: process.env.yourDatabaseURL,
+const client = new Client({
+  connectionString: connectionString,
     ssl: { rejectUnauthorized: false }
   
 })
