@@ -8,6 +8,9 @@ const app = express();
 
 const port = process.env.PORT || 3000
 
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
+
+
 //Setting up the middleware view engine to "pug"
 app.set("view engine", "pug");
 
@@ -19,6 +22,7 @@ app.use("/static", express.static("public"));
 app.get("/", (req, res) => {
   res.render("index", { projects });
 });
+
 
 //Second route for the about page
 app.get("/about", (req, res) => {
@@ -57,6 +61,12 @@ app.use((req, res) => {
 })
 
 
+const pool = new Pool({
+  connectionString: process.env.yourDatabaseURL,
+    ssl: { rejectUnauthorized: false }
+  
+})
+
 //  Global Error Handler
 app.use((err, req, res, next) => {
  if (err.status === 404){
@@ -77,3 +87,5 @@ app.use((err, req, res, next) => {
 app.listen(3000, () => {
   console.log("the application is running on localhost:3000!");
 });
+
+
