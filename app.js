@@ -1,17 +1,12 @@
+//requiring the express dependency
 const express = require("express");
-const serverless = require("serverless-http");
-
-
-app.use(`/.netlify/functions/api`, router);
-
-
-const app = express();
-const router = express.Router();
-
 
 //requiring the data.json file and accessing projects properties
 const { projects } = require("./data.json");
 
+const app = express();
+
+const port = process.env.PORT || 3000
 
 //Setting up the middleware view engine to "pug"
 app.set("view engine", "pug");
@@ -21,17 +16,17 @@ app.use("/static", express.static("public"));
 
 /* I created an "index" route (/) to render the home page with the locals set to data.projects
  */
-router.get("/", (req, res) => {
+app.get("/", (req, res) => {
   res.render("index", { projects });
 });
 
 //Second route for the about page
-router.get("/about", (req, res) => {
+app.get("/about", (req, res) => {
   res.render("about");
 });
 
 // localhost:3000/projects/:id is the url route, id being 0-6
-router.get("/projects/:id", (req, res) => {
+app.get("/projects/:id", (req, res) => {
   const projectData = projects[req.params.id];
   // check if a project with a certain id exist
   if (projectData === undefined) {
@@ -82,11 +77,3 @@ app.use((err, req, res, next) => {
 app.listen(3000, () => {
   console.log("the application is running on localhost:3000!");
 });
-
-
-
-
-
-
-module.exports = app;
-module.exports.handler = serverless(app);
