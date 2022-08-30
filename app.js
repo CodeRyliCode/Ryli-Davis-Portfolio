@@ -6,6 +6,14 @@ const { projects } = require("./data.json");
 
 const app = express();
 
+const port = process.env.PORT || 3000
+
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
+
+
+
+
+
 
 
 
@@ -57,7 +65,6 @@ app.use((req, res) => {
   err.message = "So sorry, this page does not exist!";
   res.render('page-not-found', {err});
 })
-
 
 
 //  Global Error Handler
